@@ -34,9 +34,9 @@ Run console command for add parsing coupons Job to queue
 
     php artisan coupons:parsing {parserName}
 
-where parser name is specified in cofiguration file.
+where parser name is specified in configuration file.
 
-And starting queue
+And starting queue, do not forget to setup redis, databaseor etc driver!
 
     php artisan queue:work
 
