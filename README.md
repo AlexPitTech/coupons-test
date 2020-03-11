@@ -19,7 +19,7 @@ Install migrations
     php artisan migrate --path=\vendor\AlexPitTech\test-coupons\migrations\
 
 
-Copy configuration file to laravel configuration file. If nessasary, setup calback function as proxy provider and anower parsers.
+Copy configuration file to laravel configuration folder. If nessasary, setup calback function as proxy provider and anower parsers.
 
     'proxyProvider' => function (){return 'proxy here';}
 
