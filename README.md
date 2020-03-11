@@ -5,19 +5,19 @@ This is a test project for employment in one company.
 
 Add repository to composer.json:
 
-
     "repositories": [
       {"type": "composer", "url": "https://repo.packagist.com/alexpittech/"},
       {"packagist.org": false}
     ],
 
+Require repository
+
+    composer require AlexPitTech/coupons-test
+
 Install migrations
 
     php artisan migrate --path=\vendor\AlexPitTech\test-coupons\migrations\
 
-When run console command
-
-    composer require AlexPitTech/coupons-test
 
 Copy configuration file to laravel configuration file. If nessasary, setup calback function as proxy provider and anower parsers.
 
