@@ -3,8 +3,7 @@ This is a test project for employment in one company.
 
 ### Installation
 
-Add repository to ccomposer.json:
-
+Add repository to composer.json:
 
 
     "repositories": [
