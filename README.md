@@ -14,7 +14,7 @@ Require repository
 
     composer require AlexPitTech/test-coupons
 
-Install migrations
+### Migrations
 
     php artisan migrate --path=\vendor\AlexPitTech\test-coupons\migrations\
 
