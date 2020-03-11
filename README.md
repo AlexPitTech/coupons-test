@@ -18,6 +18,7 @@ Install migrations
 
     php artisan migrate --path=\vendor\AlexPitTech\test-coupons\migrations\
 
+### Configuration
 
 Copy configuration file to laravel configuration folder. If nessasary, setup calback function as proxy provider and anower parsers.
 
@@ -30,6 +31,9 @@ Add command to your Console Kernel
         '\ClickTest\Coupons\ParsingCommand'
     ];
 
+
+### Usage
+
 Run console command for add parsing coupons Job to queue
 
     php artisan coupons:parsing {parserName}
@@ -40,4 +44,4 @@ And starting queue, do not forget to setup redis, database or etc driver!
 
     php artisan queue:work
 
-    
+And enjoy my completed task
