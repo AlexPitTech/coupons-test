@@ -3,4 +3,4 @@ This is a test project for employment in one company.
 
 ### Installation
 
-    composer require AlexPitTech/test-coupons
+    composer require AlexPitTech/coupons-test
