@@ -1,0 +1,22 @@
+{
+  "name": "AlexPitTech/test-coupons",
+  "type": "library",
+  "description": "Some coupons parser",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Pit Tech",
+      "email": "alex.pit.tech@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.5",
+    "laravel/framework": "^7.0",
+    "symfony/dom-crawler": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+        "ClickTest\\Coupons\\": "src/"
+    }
+  }
+}
