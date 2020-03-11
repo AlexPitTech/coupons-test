@@ -3,6 +3,10 @@
   "type": "library",
   "description": "Some coupons parser",
   "license": "MIT",
+  "repositories": [
+      {"type": "composer", "url": "https://repo.packagist.com/alexpittech/"},
+      {"packagist.org": false}
+  ],
   "authors": [
     {
       "name": "Alex Pit Tech",
