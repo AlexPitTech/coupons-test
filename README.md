@@ -12,7 +12,7 @@ Add repository to composer.json:
 
 Require repository
 
-    composer require AlexPitTech/coupons-test
+    composer require AlexPitTech/test-coupons
 
 Install migrations
 
