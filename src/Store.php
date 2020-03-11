@@ -37,14 +37,6 @@ class Store extends Model
     /**
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
-    public function provider()
-    {
-        return $this->hasMany(Coupon::class, 'id', 'store_id');
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     */
     public function coupons()
     {
         return $this->hasMany(Coupon::class, 'store_id', 'id');
